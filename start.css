@@ -1,0 +1,261 @@
+body{
+    background-image: url("");
+    background-size: cover;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif ;
+    border: 0px;
+    margin: 0px;
+    display: block;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: red;
+    padding: 15px;
+    color: gold;
+}
+
+.accedi{
+    font-size: 75.5%;
+    background-color: red;
+    border-color: gold;
+    float: right;
+    color: gold;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 80px;
+    
+}
+.pul{
+    font-size: 75.5%;
+    background-color: red;
+    border-color: gold;
+    float: right;
+    color: gold;
+    border-radius: 5px;
+    margin: 10px;
+}
+.reg{
+    font-size: 75%;
+    background-color: red;
+    border-color: gold;
+    color: gold;
+    float: right;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 80px; 
+}
+
+.accedi:hover, .reg:hover{
+    
+    background-color: rgba(128, 128, 128, 0.295);
+    color: gold;
+    cursor: pointer; 
+    margin: black; 
+    
+}
+header{
+    background-color: red;
+    font-size: 200%;
+    color: white;
+    font-family: fantasy;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 13px 0.5px rgba(0,0,0,0.75);
+}
+header nav{
+    font-size: 50%;
+    margin: 0;
+    border-radius: 0px;
+    
+}
+
+header span{
+    color: gold;
+    padding: 25px;
+    padding-right:0;
+}
+header span, header div{
+    display: inline-block;
+}
+header div button{
+    color: white;
+}
+
+img { 
+    border: 1px solid #000; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 0.5px rgba(0,0,0,0.75);
+}
+.card1{
+    font-size: 70%;
+    background-color: gold;
+    color: red;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 15px;
+    display: none;
+    position: absolute; 
+    top: 187px;
+    right: 0px;
+    left: 0px;
+}
+.card2{
+    font-size: 70%;
+    background-color: gold;
+    color: red;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 15px;
+    display: none;
+    position: absolute; 
+    top: 187px;
+    right: 0px;
+    left: 0px;
+}
+.card3{
+    font-size: 70%;
+    background-color: gold;
+    color: red;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 15px;
+    display: none;
+    position: absolute; 
+    top: 187px;
+    right: 0px;
+    left: 0px;
+}
+nav ul li:hover .card3{
+    display: block;
+}
+nav ul li:hover .card1{
+    display: block;
+}
+nav ul li:hover .card2{
+    display: block;
+}
+
+
+.li{
+    margin: 0;
+}
+.testo{
+    color: black;
+    font-size: 70%;
+    background-color: rgba(133, 140, 165, 0.5);
+    text-align: center;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+    padding: 1px;
+    box-shadow: 0px 0px 13px 0.5px black;
+    margin: 40px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.due{
+    font-size: 50%;
+}
+nav{
+    background-color: red;
+    color: gold; 
+    box-shadow: 0px -5px 15px 0.5px rgba(0,0,0,0.75);
+    text-align: center;
+    margin: 40px;
+    border-top: 2px solid black;
+   
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+nav ul li:hover{
+    background-color: rgba(128, 128, 128, 0.295);
+    cursor: pointer; 
+    
+}
+nav ul li a{
+    color: gold;
+    text-decoration: none;
+}
+
+
+
+.piani-title{
+    padding: 15px;
+    margin: 0px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px 0.5px rgba(0,0,0,0.75);
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color: red;
+    color: gold;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.piani{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+}
+
+table{
+    padding: 25px;
+    
+}
+
+
+
+td{
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.mese{
+    font-size: 20px;
+}
+
+.sottotitoli{
+    font-size: 80%;
+    text-align: right;
+
+}
+
+details{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+details:hover{
+    background-color: rgba(128, 128, 128, 0.295);
+    color: gold;
+    cursor: pointer; 
+    margin: black; 
+    
+}
+
+.det{
+    padding: 10px;
+    font-size: 110%;
+}
+
+.tutorial{
+    font-family: fantasy;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
